@@ -198,14 +198,6 @@ export const snakes: Snake[] = [
     continent: ["North America", "South America"],  
   },  
   {  
-    name: "Kingsnake",  
-    imageUrl: "#blank",  
-    isVenomous: false,  
-    description:  
-      "A non-venomous snake known for eating other snakes, including venomous species.",  
-    continent: ["North America"],  
-  },  
-  {  
     name: "Milk Snake",  
     imageUrl: "#blank",  
     isVenomous: false,  
