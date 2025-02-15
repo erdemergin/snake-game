@@ -9,21 +9,21 @@ export interface Snake {
 export const snakes: Snake[] = [  
   {  
     name: "Ball Python",  
-    imageUrl: "https://images.unsplash.com/photo-1582167371270-68a4c033e732",  
+    imageUrl: "/src/img/ball-python.jpg",  
     isVenomous: false,  
     description: "A gentle snake species that's one of the most popular pet snakes worldwide.",  
     continent: ["Africa"],  
   },  
   {  
     name: "Black Mamba",  
-    imageUrl: "https://images.unsplash.com/photo-1550172268-9a48af98ac5f",  
+    imageUrl: "/src/img/black-mamba.jpg",  
     isVenomous: true,  
     description: "One of Africa's deadliest snakes known for its speed and potent venom.",  
     continent: ["Africa"],  
   },  
   {  
     name: "Boa Constrictor",  
-    imageUrl: "#blank",  
+    imageUrl: "/src/img/boa-constrictor.jpg",  
     isVenomous: false,  
     description:  
       "A powerful constrictor with a distinctive pattern, native to Central and South America.",  
@@ -31,7 +31,7 @@ export const snakes: Snake[] = [
   },  
   {  
     name: "Boomslang",  
-    imageUrl: "#blank",  
+    imageUrl: "/src/img/boomslang.jpg",  
     isVenomous: true,  
     description:  
       "A slender and arboreal snake native to sub-Saharan Africa, noted for its potent venom and impressive eyesight.",  
@@ -39,7 +39,7 @@ export const snakes: Snake[] = [
   },  
   {  
     name: "Burmese Python",  
-    imageUrl: "#blank",  
+    imageUrl: "/src/img/burmese-python.jpg",  
     isVenomous: false,  
     description:  
       "A large non-venomous constrictor native to Southeast Asia, known for its impressive size.",  
@@ -47,14 +47,14 @@ export const snakes: Snake[] = [
   },  
   {  
     name: "Bushmaster",  
-    imageUrl: "#blank",  
+    imageUrl: "/src/img/bushmaster.jpg",  
     isVenomous: true,  
     description: "The longest venomous snake in the Americas.  A type of pit viper.",  
     continent: ["Central America", "South America"],  
   },  
   {  
     name: "Carpet Python",  
-    imageUrl: "#blank",  
+    imageUrl: "/src/img/carpet-python.jpg",  
     isVenomous: false,  
     description:  
       "A non-venomous snake popular in the pet trade, recognized for its beautiful and varied patterning, found in Australia and New Guinea.",  
@@ -62,7 +62,7 @@ export const snakes: Snake[] = [
   },  
   {  
     name: "Coastal Taipan",  
-    imageUrl: "#blank",  
+    imageUrl: "/src/img/coastal-taipan.jpg",  
     isVenomous: true,  
     description:  
       "A highly venomous snake, larger and more widespread than the Inland Taipan",  
@@ -70,21 +70,21 @@ export const snakes: Snake[] = [
   },  
   {  
     name: "Copperhead",  
-    imageUrl: "#blank",  
+    imageUrl: "/src/img/copperhead.png",  
     isVenomous: true,  
     description: "A venomous snake found in North America, known for its copper-colored head.",  
     continent: ["North America"],  
   },  
   {  
     name: "Corn Snake",  
-    imageUrl: "https://images.unsplash.com/photo-1590601494697-adb5c4459834",  
+    imageUrl: "/src/img/corn-snake.jpg",  
     isVenomous: false,  
     description: "A harmless and popular pet snake known for its docile nature.",  
     continent: ["North America"],  
   },  
   {  
     name: "Cottonmouth (Water Moccasin)",  
-    imageUrl: "#blank",  
+    imageUrl: "/src/img/cottonmouth.png",  
     isVenomous: true,  
     description:  
       "A venomous, semi-aquatic snake found in the southeastern United States.  Known for its white-lined mouth.",  
@@ -92,14 +92,14 @@ export const snakes: Snake[] = [
   },  
   {  
     name: "Eastern Brown Snake",  
-    imageUrl: "#blank",  
+    imageUrl: "/src/img/eastern-brown-snake.jpg",  
     isVenomous: true,  
     description: "One of the most venomous snakes in the world, found in Australia.",  
     continent: ["Australia"],  
   },  
   {  
     name: "Eastern Coral Snake",  
-    imageUrl: "#blank",  
+    imageUrl: "/src/img/eastern-coral-snake.jpg",  
     isVenomous: true,  
     description:  
       "A highly venomous snake with a distinctive red, yellow, and black banding pattern.  'Red on yellow, kill a fellow; red on black, venom lack' is a rhyme to help distinguish it from similar-looking, non-venomous snakes.",  
@@ -107,7 +107,7 @@ export const snakes: Snake[] = [
   },  
   {  
     name: "Eastern Diamondback Rattlesnake",  
-    imageUrl: "#blank",  
+    imageUrl: "/src/img/eastern-diamondback-rattlesnake.jpg",  
     isVenomous: true,  
     description:  
       "The largest rattlesnake in North America, known for its diamond-shaped patterns and dangerous venom.",  
@@ -115,7 +115,7 @@ export const snakes: Snake[] = [
   },  
   {  
     name: "Eyelash Viper",  
-    imageUrl: "#blank",  
+    imageUrl: "/src/img/eyelash-viper.jpg",  
     isVenomous: true,  
     description:  
       "A venomous pit viper known for the modified scales above its eyes that resemble eyelashes.",  
@@ -123,7 +123,7 @@ export const snakes: Snake[] = [
   },  
   {  
     name: "Gaboon Viper",  
-    imageUrl: "#blank",  
+    imageUrl: "/src/img/gaboon-viper.jpg",  
     isVenomous: true,  
     description:  
       "A venomous snake celebrated for its extraordinarily long fangs and potent venom, native to Africa.",  
@@ -131,7 +131,7 @@ export const snakes: Snake[] = [
   },  
   {  
     name: "Garter Snake",  
-    imageUrl: "#blank",  
+    imageUrl: "/src/img/garter-snake.jpg",  
     isVenomous: false,  
     description:  
       "A common, harmless snake found throughout North America, known for its striped pattern.",  
@@ -139,7 +139,7 @@ export const snakes: Snake[] = [
   },  
   {  
     name: "Green Anaconda",  
-    imageUrl: "#blank",  
+    imageUrl: "/src/img/green-anaconda.jpg",  
     isVenomous: false,  
     description:  
       "One of the largest and heaviest snakes in the world, thriving in the waters of South America.",  
@@ -147,28 +147,28 @@ export const snakes: Snake[] = [
   },  
   {  
     name: "Green Tree Python",  
-    imageUrl: "https://images.unsplash.com/photo-1585095595274-aeffac35e6bf",  
+    imageUrl: "/src/img/green-tree-python.jpg",  
     isVenomous: false,  
     description: "A beautiful non-venomous snake known for its emerald coloration.",  
     continent: ["Asia", "Australia"],  
   },  
   {  
     name: "Hognose Snake",  
-    imageUrl: "#blank",  
+    imageUrl: "/src/img/hognose-snake.jpg",  
     isVenomous: false,  
     description: "A non-venomous snake with a distinctive upturned snout.",  
     continent: ["North America"],  
   },  
   {  
     name: "Indian Cobra",  
-    imageUrl: "#blank",  
+    imageUrl: "/src/img/indian-cobra.jpg",  
     isVenomous: true,  
     description: "A highly venomous snake found in the Indian subcontinent, known for its hood.",  
     continent: ["Asia"],  
   },  
   {  
     name: "Inland Taipan",  
-    imageUrl: "#blank",  
+    imageUrl: "/src/img/inland-taipan.jpg",  
     isVenomous: true,  
     description:  
       "Considered one of the most venomous snakes in the world, this reclusive species inhabits the arid regions of Australia.",  
@@ -176,7 +176,7 @@ export const snakes: Snake[] = [
   },  
   {  
     name: "King Brown Snake",  
-    imageUrl: "#blank",  
+    imageUrl: "/src/img/king-brown-snake.jpg",  
     isVenomous: true,  
     description:  
       "Also known as the Mulga Snake, this robust and aggressive Australian snake is highly venomous.",  
@@ -184,14 +184,14 @@ export const snakes: Snake[] = [
   },  
   {  
     name: "King Cobra",  
-    imageUrl: "https://images.unsplash.com/photo-1531386151447-fd76ad50012f",  
+    imageUrl: "/src/img/king-cobra.jpg",  
     isVenomous: true,  
     description: "One of the world's most venomous snakes known for its distinctive hood.",  
     continent: ["Asia", "Southeast Asia"],  
   },  
   {  
     name: "King Snake",  
-    imageUrl: "#blank",  
+    imageUrl: "/src/img/king-snake.jpg",  
     isVenomous: false,  
     description:  
       "A non-venomous constrictor that is known to prey on other snakes, including venomous ones.",  
@@ -199,7 +199,7 @@ export const snakes: Snake[] = [
   },  
   {  
     name: "Milk Snake",  
-    imageUrl: "#blank",  
+    imageUrl: "/src/img/milk_snake.JPG",  
     isVenomous: false,  
     description:  
       "A non-venomous snake that often mimics the appearance of venomous coral snakes.",  
@@ -207,7 +207,7 @@ export const snakes: Snake[] = [
   },  
   {  
     name: "Puff Adder",  
-    imageUrl: "#blank",  
+    imageUrl: "/src/img/puff-adder.jpg",  
     isVenomous: true,  
     description:  
       "A widespread venomous viper in Africa, responsible for numerous snakebites.",  
@@ -215,14 +215,14 @@ export const snakes: Snake[] = [
   },  
   {  
     name: "Rattlesnake",  
-    imageUrl: "#blank",  
+    imageUrl: "/src/img/rattlesnake.jpg",  
     isVenomous: true,  
     description: "A group of venomous snakes known for the rattle on their tail, used as a warning signal.",  
     continent: ["North America", "South America"],  
   },  
   {  
     name: "Reticulated Python",  
-    imageUrl: "#blank",  
+    imageUrl: "/src/img/reticulated-python.jpg",  
     isVenomous: false,  
     description:  
       "The world's longest snake, renowned for its intricate and beautiful skin patterns, found throughout Southeast Asia.",  
@@ -230,7 +230,7 @@ export const snakes: Snake[] = [
   },  
   {  
     name: "Russell's Viper",  
-    imageUrl: "#blank",  
+    imageUrl: "/src/img/russells-viper.jpg",  
     isVenomous: true,  
     description:  
       "Responsible for many snakebite incidents in Asia due to its proximity to human habitats.",  
@@ -238,7 +238,7 @@ export const snakes: Snake[] = [
   },  
   {  
     name: "Saw-Scaled Viper",  
-    imageUrl: "#blank",  
+    imageUrl: "/src/img/saw-scaled-viper.jpg",  
     isVenomous: true,  
     description:  
       "A small but highly venomous viper responsible for many snakebite deaths.",  
@@ -246,14 +246,14 @@ export const snakes: Snake[] = [
   },  
   {  
     name: "Sidewinder",  
-    imageUrl: "#blank",  
+    imageUrl: "/src/img/sidewinder.jpg",  
     isVenomous: true,  
     description: "A venomous snake known for its unique sideways movement.",  
     continent: ["North America"],  
   },  
   {  
     name: "Tiger Snake",  
-    imageUrl: "#blank",  
+    imageUrl: "/src/img/tiger-snake.jpg",  
     isVenomous: true,  
     description:  
       "Highly venomous snake found in Australia. Displays a variety of patterns, often with bands.",  
@@ -261,7 +261,7 @@ export const snakes: Snake[] = [
   },  
   {  
     name: "Yellow-bellied Sea Snake",  
-    imageUrl: "#blank",  
+    imageUrl: "/src/img/yellow-bellied-sea-snake.jpg",  
     isVenomous: true,  
     description:  
       "A highly venomous sea snake with a striking yellow underside, inhabiting the warm coastal waters of the Indo-Pacific.",  

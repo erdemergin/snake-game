@@ -211,6 +211,14 @@ function App() {
             </div>
           </div>
         )}
+
+        <div className="mt-12 text-center text-gray-400 text-sm px-4 py-6 border-t border-gray-800">
+          <p className="max-w-2xl mx-auto">
+            Disclaimer: This snake identification quiz is for educational and entertainment purposes only. 
+            Always consult local wildlife authorities, herpetologists, or medical professionals for accurate 
+            snake identification and safety information. Never attempt to handle or approach snakes in the wild.
+          </p>
+        </div>
       </div>
     </div>
   );
